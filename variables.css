@@ -7,10 +7,99 @@
     --btn-del-ac: #D3A3BD;
     --btn-del-ac-active:#c49ab0;
     --btn-number: antiquewhite;
+    --text-btn-number:#000;
     --display:#C6D5D9; 
     --box-shadow-container: 5px 5px 5px 0px rgba(94,94,94,0.75);
     --box-shadow-btn: 3px 3px 3px 0px rgba(94,94,94,0.75);
     --border: 1px solid rgb(75, 50, 50);
+    --select-text: black;
+}
+
+.dark-mode{
+    --body:#212429;
+    --container:#34383E;
+    --color-font:#ffffff;
+    --btn-gral:#34383E;
+    --btn-gral-active:#343b44;
+    --text-btn: white;
+    --btn-del-ac: #B74D6C;
+    --btn-del-ac-active:#c55376;
+    --btn-number: rgb(214, 211, 206);
+    --text-btn-number: black;
+    --display:#86B297; 
+    --box-shadow-container: 5px 5px 5px 0px rgba(94,94,94,0.75);
+    --box-shadow-btn: 3px 3px 3px 0px rgba(94,94,94,0.75);
+    --border: 1px solid rgb(248, 247, 247);
+    --select-text:#fff;
+}
+
+.white-mode{
+    --body:rgb(122, 121, 121);
+    --container:#fff;
+    --color-font:#111111;
+    --btn-gral:#f4f5f8;
+    --btn-gral-active:#c5c5c5;
+    --text-btn: rgb(58, 54, 54);
+    --btn-del-ac: #40a32d;
+    --btn-del-ac-active:#5cc553;
+    --btn-number: rgb(233, 232, 232);
+    --text-btn-number: #111111;
+    --display:#8daa98; 
+    --box-shadow-container: 5px 5px 5px 0px rgba(94,94,94,0.75);
+    --box-shadow-btn: 3px 3px 3px 0px rgba(94,94,94,0.75);
+    --border: 1px solid rgb(20, 20, 20);
+}
+
+.blue-mode{
+    --body:rgb(194, 194, 240);
+    --container:#bee4e9;
+    --color-font:#111111;
+    --btn-gral:#B8DFEA;
+    --btn-gral-active:#c3e7f1;
+    --text-btn: rgb(58, 54, 54);
+    --btn-del-ac: #79ddf7;
+    --btn-del-ac-active:rgb(153, 183, 218);
+    --btn-number: rgb(233, 232, 232);
+    --text-btn-number: #111111;
+    --display:#ADBEBE; 
+    --box-shadow-container: 5px 5px 5px 0px rgba(94,94,94,0.75);
+    --box-shadow-btn: 3px 3px 3px 0px rgba(94,94,94,0.75);
+    --border: 1px solid rgb(20, 20, 20);
+}
+
+.green-mode{
+    --body:rgb(216, 218, 216);
+    --container:#9fe4be;
+    --color-font:#0e0707;
+    --btn-gral:#CDC6BC;
+    --btn-gral-active:#dbd6ce;
+    --text-btn: rgb(17, 3, 3);
+    --btn-del-ac: #E69358;
+    --btn-del-ac-active:#f3ab78;
+    --btn-number: #56813A;
+    --text-btn-number: #faf6f6;
+    --display:#C2CABD; 
+    --box-shadow-container: 5px 5px 5px 0px rgba(94,94,94,0.75);
+    --box-shadow-btn: 3px 3px 3px 0px rgba(94,94,94,0.75);
+    --border: 1px solid rgb(20, 20, 20);
+}
+
+.yellow-mode{
+    --body:rgb(122, 122, 122);
+    --container:#F5C656;
+    --color-font:#0e0707;
+    --btn-gral:#3E4759;
+    --btn-gral-active:#5b6577;
+    --text-btn: #fff;
+    --btn-del-ac: #375971;
+    --btn-del-ac-active:#4a6e88; 
+    --btn-number: #9DA7AB;
+    --text-btn-number: black;
+    --display:#B4C3B8; 
+    --box-shadow-container: 5px 5px 5px 0px rgba(94,94,94,0.75);
+    --box-shadow-btn: 3px 3px 3px 0px rgba(94,94,94,0.75);
+    --border: 1px solid rgb(20, 20, 20);
+    --select-text:#fff;
 }
 
 

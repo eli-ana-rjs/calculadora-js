@@ -100,7 +100,7 @@ p{
 
 button{
     background-color: var(--btn-gral);
-    color: black;
+    color: var(--text-btn);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     border: var(--border);
@@ -128,5 +128,18 @@ button:active{
 
 .number{
     background-color: var(--btn-number) ;
+    color: var(--text-btn-number);
+}
+
+select{
+    background-color: var(--btn-gral);
+    border: 0.1em solid grey;
+    box-shadow: var(--box-shadow-btn);
+    border-radius:0.3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option-text{
+    color: var(--select-text);
 }
 
