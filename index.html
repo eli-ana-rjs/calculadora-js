@@ -1,17 +1,110 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
- </head>
- <body>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora fx-22ER</title>
+</head>
+
+<body >
+
+    <main class="container-main">
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
- </body>
- </html>
+        <!-- Header de la calculadora -->
+        <div class="header">
+            <p>Calculator</p>
+            <span>fx-22ER</span>
+
+            <select name="theme" id="theme">
+                <option value="pink">Pink</option>
+                <option value="dark">Dark</option>
+                <option value="white">White</option>
+                <option value="yellow">Yellow</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="kawaii">Kawaii</option>
+            </select>
+        </div>
+
+        <!-- Display -->
+        <div class="display">
+            <div class="operation"></div>
+            <div></div>
+            <div class="result"></div>
+        </div>
+
+        <!-- Teclado -->
+        <section class="container-key">
+
+            <div class="row logical-operators">
+                <button class="key logical">(</button>
+                <button class="key logical">)</button>
+                <button class="key logical">x!</button>
+                <button class="key logical">x²</button>
+                <button class="key logical">√</button>
+                <button class="key logical">n√</button>
+
+                <button class="key logical">sin</button>
+                <button class="key logical">cos</button>
+                <button class="key logical">tg</button>
+                <button class="key logical">x³</button>
+                <button class="key logical">∛</button>
+                <button class="key logical">^</button>
+
+            </div>
+
+            <div class="row arhitmetic-operators">
+
+
+                <button class="key number">7</button>
+                <button class="key number">8</button>
+                <button class="key number">9</button>
+                <button class="key arithmetic">/</button>
+                <button class="key arithmetic">%</button>
+                <button class="key arithmetic">ln</button>
+
+                <button class="key number">4</button>
+                <button class="key number">5</button>
+                <button class="key number">6</button>
+                <button class="key arithmetic">*</button>
+                <button class="key arithmetic">log</button>
+                <button class="key arithmetic">e</button>
+
+
+
+                <button class="key number">1</button>
+                <button class="key number">2</button>
+                <button class="key number">3</button>
+                <button class="key arithmetic">-</button>
+                <button class="key del-ac">MR</button>
+                <button class="key del-ac">AC</button>
+
+                <button class="key number">0</button>
+                <button class="key number">.</button>
+                <button class="key number">Π</button>
+                <button class="key arithmetic">+</button>
+                <button class="key ans">Ans</button>
+                <button class="key arithmetic">=</button>
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+</body>
+
+</html>

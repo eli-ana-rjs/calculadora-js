@@ -1,0 +1,132 @@
+body{
+    background-color:var(--body) ;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container-main{
+    background:var(--container);
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 15em;
+    border: 1px double rgb(132, 134, 132);
+    box-shadow: var(--box-shadow-container);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--color-font);
+}
+
+.header span{
+    color:var(--color-font);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.display{
+    width: 100%;
+    height: 3em;
+    padding: 0.3em 0;
+    background-color: var(--display);
+    border-top: var(--border) ;
+    border-right:0 ;
+    border-bottom: 0 ;
+    border-left: var(--border);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.display div{
+    background-color: transparent;
+    padding-left: 0.4em;
+}
+
+.operation{
+    width: 15em;
+    padding:0 0 0 0.4em;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+
+.operation::after{
+    content: "|";
+    color: black;
+    animation: 1s animated infinite;
+    -webkit-animation: 1s animated infinit;
+}
+
+@keyframes animated{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+.result{
+    margin: 0;
+    align-self: flex-end;
+    user-select: none;
+}
+
+.container-key{
+    margin-top: 1em;
+}
+
+.logical-operators {
+    display: grid;
+    grid-template-columns: repeat(6,40px);
+    margin-bottom: 0.6em;
+}
+
+.arhitmetic-operators{
+    display: grid;
+    grid-template-columns: repeat(6,40px);
+    margin-bottom: 0.6em;
+}
+
+button{
+    background-color: var(--btn-gral);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: var(--border);
+    box-shadow: var(--box-shadow-btn) ;
+}
+
+button:active{
+    background-color: var(--btn-gral-active);
+}
+
+.key{
+    padding: 0.1em;
+    margin:0.3em;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+
+.del-ac{
+    background-color:var(--btn-del-ac);
+}
+
+.del-ac{
+    background-color: var(--btn-del-ac-active);
+}
+
+.number{
+    background-color: var(--btn-number) ;
+}
+

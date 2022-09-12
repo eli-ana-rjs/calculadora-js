@@ -1,0 +1,19 @@
+:root{
+    --body:#F1E1E1;
+    --container:#E1C1D1;
+    --color-font:#3F3837;
+    --btn-gral:#E6C9D5;
+    --btn-gral-active:#D3A3BD;
+    --btn-del-ac: #D3A3BD;
+    --btn-del-ac-active:#c49ab0;
+    --btn-number: antiquewhite;
+    --display:#C6D5D9; 
+    --box-shadow-container: 5px 5px 5px 0px rgba(94,94,94,0.75);
+    --box-shadow-btn: 3px 3px 3px 0px rgba(94,94,94,0.75);
+    --border: 1px solid rgb(75, 50, 50);
+}
+
+
+
+
+
